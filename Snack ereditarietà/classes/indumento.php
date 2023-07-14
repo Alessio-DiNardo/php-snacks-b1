@@ -12,6 +12,17 @@ class indumento{
     public $material;
     public $color;
     public $size;
+
+    function __construct($material, $color, $size)
+    {
+        $this->material = $material;
+        $this->color = $color;
+        $this->size = $size;
+    }
+
+
+
+
 }
 
 
